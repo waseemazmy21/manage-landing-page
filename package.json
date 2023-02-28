@@ -1,0 +1,24 @@
+{
+	"name": "manage-landing-page",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tailwindcss -i ./input.css -o ./css/main.css",
+		"watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/waseemazmy21/manage-landing-page.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/waseemazmy21/manage-landing-page/issues"
+	},
+	"homepage": "https://github.com/waseemazmy21/manage-landing-page#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.2.7"
+	}
+}
