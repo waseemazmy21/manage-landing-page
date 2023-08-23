@@ -1,3 +1,138 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --brightRed: hsl(12, 88%, 59%);
+  --brightRedLight: hsl(12, 88%, 69%);
+  --brightRedSupLight: hsl(12, 88%, 95%);
+  --darkBlue: hsl(228, 39%, 23%);
+  --darkGrayishBlue: hsl(227, 12%, 61%);
+  --veryDarkBlue: hsl(233, 12%, 13%);
+  --veryPaleRed: hsl(13, 100%, 96%);
+  --veryLightGray: hsl(0, 0%, 98%);
+}
+
+@layer base {
+  html {
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+}
+
+.container {
+  /* max-width: calc(1100px + 3rem); */
+  width: 100%;
+  max-width: 72.375rem;
+}
+
+/* biger contaier for testimonials */
+.container--big {
+  width: 100%;
+  max-width: 90rem; /* 1440px */
+}
+
+/* hamburger menu */
+.hamburger {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.hamburger {
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  @apply duration-menu;
+  transform-origin: 50% 50%;
+  perspective: 600px;
+}
+
+/* Hamburger Line */
+.hamburger > span {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  display: block;
+  background: var(--veryDarkBlue);
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  @apply duration-menu;
+}
+
+.hamburger .first {
+  top: 0px;
+}
+
+.hamburger .second {
+  top: 10px;
+}
+
+.hamburger .third {
+  top: 20px;
+}
+
+/* Turns Lines Into X */
+.hamburger.close > span:nth-child(odd) {
+  transform: rotate(90deg);
+  top: 10px;
+}
+
+/* Toggler Animation */
+.hamburger.close {
+  transform: rotate(135deg);
+}
+
+/* Rotate On Hover When Checked
+.hamburger.close:hover {
+  transform: rotate(225deg);
+} */
+
+/* swiper slide styles */
+.swiper {
+  width: min(100%, 36rem);
+  @apply lg:w-full;
+}
+
+/* by default swiper pagination postioned absolute */
+.swiper-pagination {
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+  width: 0.8rem !important;
+  height: 0.8rem !important;
+  background-color: white !important;
+  border: 2px solid var(--brightRed) !important;
+  border-radius: 50%;
+  margin: 0 !important;
+}
+
+.swiper-pagination-bullet:hover {
+  opacity: 0.5;
+  background-color: var(--brightRed) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--brightRed) !important;
+}
+
+/* backgrounds */
+
+body {
+  background-image: url(../images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  @apply lg:bg-60%;
+  background-position: 110% -5%;
+}
+
+#cta {
+  background-image: url(../images/bg-simplify-section-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 976px) {
+  #cta {
+    background-image: url(../images/bg-simplify-section-desktop.svg);
+    background-position: 9% 100%;
+  }
+}
