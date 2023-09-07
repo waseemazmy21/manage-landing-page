@@ -81,19 +81,15 @@
   transform: rotate(135deg);
 }
 
-/* Rotate On Hover When Checked
-.hamburger.close:hover {
-  transform: rotate(225deg);
-} */
 
 /* swiper slide styles */
-.swiper {
+/* .swiper {
   width: min(100%, 36rem);
   @apply lg:w-full;
-}
+} */
 
 /* by default swiper pagination postioned absolute */
-.swiper-pagination {
+/* .swiper-pagination {
   position: relative;
 }
 
@@ -113,11 +109,11 @@
 
 .swiper-pagination-bullet-active {
   background-color: var(--brightRed) !important;
-}
+} */
 
 /* backgrounds */
 
-body {
+/* body {
   background-image: url(../images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -135,4 +131,4 @@ body {
     background-image: url(../images/bg-simplify-section-desktop.svg);
     background-position: 9% 100%;
   }
-}
+} */
