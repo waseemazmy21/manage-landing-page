@@ -21,15 +21,16 @@
 
 .container {
   /* max-width: calc(1100px + 3rem); */
-  width: 100%;
-  max-width: 72.375rem;
+  @apply w-full max-w-[72.375rem];
 }
 
 /* biger contaier for testimonials */
 .container--big {
-  width: 100%;
-  max-width: 90rem; /* 1440px */
+  @apply w-full max-w-[90rem];
 }
+
+/* footer container with grid layout */
+
 
 /* hamburger menu */
 .hamburger {
@@ -80,36 +81,6 @@
 .hamburger.close {
   transform: rotate(135deg);
 }
-
-
-/* swiper slide styles */
-/* .swiper {
-  width: min(100%, 36rem);
-  @apply lg:w-full;
-} */
-
-/* by default swiper pagination postioned absolute */
-/* .swiper-pagination {
-  position: relative;
-}
-
-.swiper-pagination-bullet {
-  width: 0.8rem !important;
-  height: 0.8rem !important;
-  background-color: white !important;
-  border: 2px solid var(--brightRed) !important;
-  border-radius: 50%;
-  margin: 0 !important;
-}
-
-.swiper-pagination-bullet:hover {
-  opacity: 0.5;
-  background-color: var(--brightRed) !important;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: var(--brightRed) !important;
-} */
 
 /* backgrounds */
 

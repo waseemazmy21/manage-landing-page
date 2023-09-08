@@ -29,3 +29,16 @@ export const testimonialsData = [
     text: 'Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.',
   },
 ];
+
+export const links_1 = [
+  { id: 1, text: 'Home', url: '#' },
+  { id: 2, text: 'Pricing', url: '#' },
+  { id: 3, text: 'Products', url: '#' },
+  { id: 4, text: 'About Us', url: '#' },
+];
+
+export const links_2 = [
+  { id: 5, text: 'Careers', url: '#' },
+  { id: 6, text: 'Community', url: '#' },
+  { id: 7, text: 'Privacy Policy', url: '#' },
+];
