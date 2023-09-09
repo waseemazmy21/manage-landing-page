@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer id='footer' className='bg-veryDarkBlue pt-14 pb-6 lg:py-14'>
+    <footer id='footer' className='bg-veryDarkBlue pt-14 pb-6'>
       <div className='w-full max-w-xl lg:max-w-[90rem] mx-auto px-6'>
         <div className='grid gap-12 grid-rows-[repeat(3,auto)] grid-cols-2 lg:grid-rows-1 lg:grid-cols-[repeat(4,auto)]'>
           <div className='row-[1/2] col-[1/3] lg:col-[4/5] flex flex-col gap-4'>
@@ -113,7 +113,7 @@ const Footer = () => {
         <hr className='border-t-2 border-gray-500 mt-8 mb-4' />
         <p className='text-center'>
           <a
-            href=''
+            href='https://github.com/waseemazmy21/manage-landing-page'
             target='_blank'
             rel='noopener noreferrer'
             className='text-darkGrayishBlue hover:text-white flex flex-row items-center justify-center'
