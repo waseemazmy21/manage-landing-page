@@ -1,8 +1,16 @@
-# React + Vite
+# Manage Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Manage Landing Page](public/manage-langing-page-overview.webp)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is the front-end solution for the Manage Landing Page challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5). It is a responsive landing page built using React, Tailwind CSS, Swiper, and Vite.
+
+You can view the live demo of the Manage Landing Page [here](https://waseemazmy21.github.io/manage-landing-page/).
+
+## Technologies
+
+- React
+- Tailwind CSS
+- Swiper
+- Vite
