@@ -21,6 +21,7 @@ export default {
       auto: 'auto',
       cover: 'cover',
       contain: 'contain',
+      '85%': '85%',
       '60%': '60%',
     },
     extend: {
@@ -35,7 +36,7 @@ export default {
         veryLightGray: 'hsl(0, 0%, 98%)',
       },
       transitionDuration: {
-        menu: '500ms', // Mobile menu animation duration
+        menu: '200ms', // Mobile menu animation duration
       },
     },
   },

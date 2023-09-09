@@ -29,9 +29,6 @@
   @apply w-full max-w-[90rem];
 }
 
-/* footer container with grid layout */
-
-
 /* hamburger menu */
 .hamburger {
   position: relative;
@@ -84,22 +81,21 @@
 
 /* backgrounds */
 
-/* body {
-  background-image: url(../images/bg-tablet-pattern.svg);
+body {
+  background-image: url(./images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-  @apply lg:bg-60%;
-  background-position: 110% -5%;
+  @apply bg-[200%_0%] bg-85% md:bg-[200%_-6%] lg:bg-60% lg:bg-[130%_-4%] xl:bg-[125%_-25%];
 }
 
 #cta {
-  background-image: url(../images/bg-simplify-section-mobile.svg);
+  background-image: url(./images/bg-simplify-section-mobile.svg);
   background-repeat: no-repeat;
 }
 
 @media (min-width: 976px) {
   #cta {
-    background-image: url(../images/bg-simplify-section-desktop.svg);
+    background-image: url(./images/bg-simplify-section-desktop.svg);
     background-position: 9% 100%;
   }
-} */
+}
